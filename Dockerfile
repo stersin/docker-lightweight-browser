@@ -4,4 +4,4 @@ RUN apt-get update && apt-get install -y python python-webkit python-dbus libcan
 
 ADD browser.py /usr/local/bin/browser.py
 
-ENTRYPOINT browser.py
+ENTRYPOINT ["browser.py"]
